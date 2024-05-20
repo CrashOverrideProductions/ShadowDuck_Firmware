@@ -2,7 +2,7 @@
 
 <!-- Repo Cover Image -->
 <p align="center">
-<img align="center" src="https://kobol.xyz/Justin.Bland/ShadowDuck/raw/branch/main/RepoImages/ShadowDuckLogo.png" width="500px"/>
+<img align="center" src="https://github.com/KobolSystems/ShadowDuck_Firmware/blob/main/repoLogo.png?raw=true" width="500px"/>
 </p>
 
 ## Changelog
