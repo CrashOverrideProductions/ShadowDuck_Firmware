@@ -5,13 +5,14 @@
 <img align="center" src="https://github.com/KobolSystems/ShadowDuck_Firmware/blob/main/repoLogo.png?raw=true" width="450px"/>
 </p>
 
-## Changelog
+
+## Changelog  <img alt="" align="right" src="https://img.shields.io/github/last-commit/KobolSystems/ShadowDuck_Firmware" />
 
 
 
 
 
-## Current Builds <img alt="" align="right" src="https://img.shields.io/badge/Licence-MIT-informational?style=flat&logoColor=white&color=FF9421" />
+## Current Builds <img alt="" align="right" src="https://img.shields.io/github/v/release/KobolSystems/ShadowDuck%20Firmware" />
 
 
 
