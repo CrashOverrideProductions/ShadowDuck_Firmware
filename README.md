@@ -12,14 +12,14 @@ The Shadow Duck is a hardware platform designed for performing keystroke injecti
 ## Changelog  <img alt="" align="right" src="https://img.shields.io/github/last-commit/KobolSystems/ShadowDuck_Firmware" />
 All notable changes to this project will be documented in this file.
 
-## [Unreleased] 2024-05-22
+## 1.0 2024-05-22
 - Migrated Arduino INO project to PlatformIO
 - USBNova.ino renamed to main.cpp
 - Added includes for Arduino.h to main.cpp
 - Moved all "src" files to "Includes" folder and updated main.cpp
 - Moved "config.h" and "debug.h" to includes folder
 - Updated "hid.h" reference for config.h
-  
+- Included external libries "adafruit/SdFat - Adafruit Fork@^2.2.3",	"adafruit/Adafruit TinyUSB Library@^3.1.4" in lib_deps
 
 
 ## Current Builds <img alt="" align="right" src="https://img.shields.io/github/v/release/KobolSystems/ShadowDuck%20Firmware" />
