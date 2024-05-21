@@ -10,9 +10,16 @@
 The Shadow Duck is a hardware platform designed for performing keystroke injection attacks. Our goal with this platform is to provide a budget-friendly, educational, and ethical pen-testing tool that resembles a legitimate USB stick, avoiding unnecessary scrutiny. We aim to give newcomers to cybersecurity the opportunity to experiment with these tools and eventually apply their skills in legitimate, professional roles within the industry.
 
 ## Changelog  <img alt="" align="right" src="https://img.shields.io/github/last-commit/KobolSystems/ShadowDuck_Firmware" />
+All notable changes to this project will be documented in this file.
 
-
-
+## [Unreleased] 2024-05-22
+- Migrated Arduino INO project to PlatformIO
+- USBNova.ino renamed to main.cpp
+- Added includes for Arduino.h to main.cpp
+- Moved all "src" files to "Includes" folder and updated main.cpp
+- Moved "config.h" and "debug.h" to includes folder
+- Updated "hid.h" reference for config.h
+  
 
 
 ## Current Builds <img alt="" align="right" src="https://img.shields.io/github/v/release/KobolSystems/ShadowDuck%20Firmware" />
