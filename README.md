@@ -49,7 +49,7 @@ lib_deps =
 
 
  
-## Current Builds <img alt="" align="right" src="https://img.shields.io/github/v/release/KobolSystems/ShadowDuck%20Firmware" />
+## Current Builds <img alt="" align="right" src="https://img.shields.io/github/v/release/KobolSystems/ShadowDuck_Firmware" />
 
 | Version | Notes                          | Link                                                                                     |
 |:-------:|--------------------------------|:-----------------------------------------------------------------------------------------|
