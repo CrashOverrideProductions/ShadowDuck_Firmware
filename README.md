@@ -51,6 +51,9 @@ lib_deps =
  
 ## Current Builds <img alt="" align="right" src="https://img.shields.io/github/v/release/KobolSystems/ShadowDuck%20Firmware" />
 
+| Version | Notes                          | Link                                                                                     |
+|:-------:|--------------------------------|:-----------------------------------------------------------------------------------------|
+| 1.0     | PlatformIO Port of USBNova F/W | [Link](https://github.com/KobolSystems/ShadowDuck_Firmware/releases/tag/PlatformIO-Port) |
 
 
 
