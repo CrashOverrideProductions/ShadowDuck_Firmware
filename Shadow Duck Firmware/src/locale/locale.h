@@ -2,7 +2,7 @@
 
 #pragma once
 
-#include "locale/locale.h"
+#include "locale/locale_types.h"
 #include "locale/usb_hid_keys.h"
 
 namespace locale {
