@@ -21,22 +21,22 @@
 
 // ===== Pin Definitions ===== //
 
-// USB Nova MKI (SAMD21)
+// ShadowDuck MKI (SAMD21)
 #if defined(ARDUINO_QTPY_M0)
     #define LED_PIN 11
     #define SELECTOR A0
 
-// USB Nova MKII (RP2040)
+// ShadowDuck MKII (RP2040)
 #elif defined(ARDUINO_GENERIC_RP2040)
     #define LED_PIN 12
     #define SELECTOR 13
 
-// DIY USB Nova using Adafruit Trinkey (RP2040)
+// DIY ShadowDuck using Adafruit Trinkey (RP2040)
 #elif defined(ARDUINO_ADAFRUIT_TRINKEYQT_RP2040)
     #define LED_PIN 27
     #define SELECTOR 12
 
-// DIY USB Nova using Raspberry Pi Pico (RP2040)
+// DIY ShadowDuck using Raspberry Pi Pico (RP2040)
 #elif defined(ARDUINO_RASPBERRY_PI_PICO)
     #define LED_PIN -1
     #define SELECTOR 16

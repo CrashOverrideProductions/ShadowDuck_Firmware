@@ -6,7 +6,7 @@
 
 namespace msc {
     bool init();
-    bool format(const char* drive_name = "USB Nova");
+    bool format(const char* drive_name = "ShadowDuck");
     void print();
 
     void enableDrive();

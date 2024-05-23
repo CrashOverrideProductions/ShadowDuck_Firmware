@@ -80,7 +80,7 @@ void setup() {
     // Create main_script.txt if it doesn't exist yet
     if (!msc::exists(preferences::getMainScript().c_str())) {
         char message[21];
-        sprintf(message, "# USB Nova (v%s)\n", VERSION);
+        sprintf(message, "# ShadowDuck (v%s)\n", VERSION);
         msc::write(preferences::getMainScript().c_str(), message, 20);
     }
 

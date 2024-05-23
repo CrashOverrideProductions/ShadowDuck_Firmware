@@ -86,11 +86,10 @@ namespace cli {
 
         // version
         cli.addCmd("version", [](cmd* c) {
-            debuglnF("[ = USB Nova =]");
+            debuglnF("[ = ShadowDuck =]");
             debugF("Version ");
             debugln(VERSION);
-            debuglnF("Source: https://github.com/spacehuhntech/usbnova");
-            debuglnF("Made with <3 by Spacehuhn (spacehuhn.com)");
+            debuglnF("Source: https://github.com/KobolSystems/ShadowDuck_Firmware");
             debugln();
         }).setDescription(" Print the firmware version.");
 

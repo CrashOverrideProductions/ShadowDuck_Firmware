@@ -39,7 +39,7 @@
         },
         "preferences": {
             "title": "Preferences",
-            "description": "Preferences for your USB Nova",
+            "description": "Preferences for your ShadowDuck",
             "type": "object",
             "additionalProperties": false,
             "properties": {
@@ -98,12 +98,12 @@
                 "manufacturer": {
                     "type": "string",
                     "title": "USB Manufacturer Descriptor",
-                    "default": "SpacehuhnTech"
+                    "default": "Kobol Systems"
                 },
                 "product": {
                     "type": "string",
                     "title": "USB Product Descriptor",
-                    "default": "USB Nova"
+                    "default": "ShadowDuck"
                 },
                 "default_layout": {
                     "type": "string",

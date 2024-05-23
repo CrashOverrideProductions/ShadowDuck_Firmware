@@ -1,5 +1,3 @@
-/* This software is licensed under the MIT License: https://github.com/spacehuhntech/usbnova */
-
 #include "hid/hid.h"
 
 #include <Adafruit_TinyUSB.h>
@@ -12,8 +10,8 @@ namespace hid {
     bool    indicator_read    = false; // If initial indicator was read
 
     std::string serial       = "1337";
-    std::string manufacturer = "SpacehuhnTech";
-    std::string product      = "USB Nova";
+    std::string manufacturer = "KobolSystems";
+    std::string product      = "ShadowDuck";
 
     // HID report descriptor using TinyUSB's template
     // Single Report (no ID) descriptor

@@ -3,5 +3,5 @@
 #pragma once
 
 namespace format {
-    bool start(const char* drive_name = "USB Nova");
+    bool start(const char* drive_name = "ShadowDuck");
 }

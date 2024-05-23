@@ -1,9 +1,5 @@
-/* This software is licensed under the MIT License: https://github.com/spacehuhntech/usbnova */
-
 #pragma once
 
-// If you get an error here, you probably have selected the wrong board.
-// You can find the correct board under Tools > Board.
 #include "locale/locale.h"
 
 namespace keyboard {

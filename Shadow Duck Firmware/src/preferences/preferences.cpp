@@ -59,7 +59,7 @@ namespace preferences {
     }
 
     void toJson(JsonDocument& root) {
-        root["$schema"] = "https://raw.githubusercontent.com/SpacehuhnTech/USBNova/main/schema.json";
+        root["$schema"] = "https://raw.githubusercontent.com/KobolSystems/ShadowDuck_Firmware/main/Shadow%20Duck%20Firmware/src/schema.json";
 
         root["enable_msc"] = enable_msc;
         root["enable_led"] = enable_led;
@@ -193,8 +193,8 @@ namespace preferences {
         pid          = "11A4";
         version      = "0100";
         serial       = "1337";
-        manufacturer = "SpacehuhnTech";
-        product      = "USB Nova";
+        manufacturer = "KobolSystems";
+        product      = "ShadowDuck";
 
         default_layout = "US";
         default_delay  = 5;
@@ -217,7 +217,7 @@ namespace preferences {
         idle_color[3] = 0;
 
         format     = false;
-        drive_name = "USB Nova";
+        drive_name = "ShadowDuck";
 
         disable_capslock = true;
         run_on_indicator = false;
