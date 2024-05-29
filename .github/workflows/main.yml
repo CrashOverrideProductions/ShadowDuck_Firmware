@@ -1,40 +1,33 @@
-name: Build PlatformIO Project
+name: Build Project
 
 on:
   push:
     branches:
-      - main
       - development
   pull_request:
     branches:
       - main
-      - development
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4 # Updated to a version compatible with Node.js 20
+    - name: Checkout repository
+      uses: actions/checkout@v2
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
 
-      - name: Install PlatformIO CLI
-        run: |
-          python -m pip install --upgrade pip
-          pip install platformio
+    - name: Install PlatformIO CLI
+      run: |
+        python -m pip install --upgrade pip
+        pip install platformio
 
-      - name: Cache PlatformIO packages
-        uses: actions/cache@v4 # Updated to a version compatible with Node.js 20
-        with:
-          path: ~/.platformio
-          key: ${{ runner.os }}-platformio-${{ hashFiles('**/platformio.ini') }}
-          restore-keys: |
-            ${{ runner.os }}-platformio-
+    - name: Install PlatformIO Core
+      run: platformio update
 
-      - name: Build project
-        run: pio run
+    - name: Build project
+      run: platformio run --environment pico
