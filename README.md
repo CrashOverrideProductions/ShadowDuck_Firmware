@@ -5,6 +5,7 @@
 <img align="center" src="https://github.com/KobolSystems/ShadowDuck_Firmware/blob/main/repoLogo.png?raw=true" width="450px"/>
 </p>
 
+[![Build Project](https://github.com/KobolSystems/ShadowDuck_Firmware/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/KobolSystems/ShadowDuck_Firmware/actions/workflows/main.yml)
 
 ## Something
 The Shadow Duck is a hardware platform designed for performing keystroke injection attacks. Our goal with this platform is to provide a budget-friendly, educational, and ethical pen-testing tool that resembles a legitimate USB stick, avoiding unnecessary scrutiny. We aim to give newcomers to cybersecurity the opportunity to experiment with these tools and eventually apply their skills in legitimate, professional roles within the industry.
