@@ -30,4 +30,5 @@ jobs:
       run: platformio update
 
     - name: Build project
+      working-directory: ./Shadow%20Duck%20Firmware
       run: platformio run --environment pico
